@@ -30,18 +30,94 @@ header {
   padding-left: 27px;
   margin-bottom: 20px;
 }
-.btn-contact{
-    height: 45px;
-    width: 120px;
-    color:blue;
-    border-radius: 5px;
-    border: none;
-    font-weight: bold;
+.btn-contact {
+    font-size: 20px;
+  height: 45px;
+  width: 120px;
+  color: rgb(12, 148, 194);
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
 }
-section{
-    background-color: red;
-    width: 85%;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+
+/* main Part */
+section {
+  width: 85%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.section-part1 {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  align-items: center;
+}
+/* .section-part1 img{
+    height: 500px;
+} */
+.man-description {
+  margin: 70px;
+  padding: 25px;
+}
+.prev-year-title {
+  color: rgb(17, 11, 11);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.prev-year-description {
+  color: #444343;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.fa-check{
+    color: blue;
+}
+
+/* My Plan Part */
+.section-part2 {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.my-plan {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.section-part2 h1 {
+  font-size: 30px;
+  color: #151414;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.section-part2 h4{
+    color: #737272;
+}
+
+/* Gradient Part */
+.gradient-part{
+    height: 250px;
+    width: 100%;
+    background-image:url("images/watch.png"),
+    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    margin: 100px 10px;
+    border-radius: 10px;
+   color: white;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   padding-left: 40px;
+}
+.gradient-part h1{
+    font-size: 40px;
+    margin-bottom: 10px;
 }
