@@ -7,7 +7,7 @@
 header {
   width: 100%;
   height: 130vh;
-  background-image: url("images/banner/banner3.png");
+  background-image: url("./images/banner/banner3.png");
   display: flex;
   justify-content: right;
   text-align: right;
@@ -104,10 +104,10 @@ ul li {
 /* Gradient Part */
 .gradient-part {
   height: 250px;
-  width: 100%;
-  background-image: url("images/watch.png"),
-    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
-  background-blend-mode: multiply;
+  width: 90%;
+  background-image: url("./images/watch.png"),
+    linear-gradient(to left, rgba(12, 122, 248, 0), rgb(8, 126, 194));
+  background-blend-mode: soft-light;
   background-repeat: no-repeat;
   margin: 100px 10px;
   border-radius: 10px;
@@ -122,21 +122,60 @@ ul li {
   margin-bottom: 10px;
 }
 
+/* External parts */
+.external-parts{
+    display: flex;
+    padding: 50px 80px;
+    margin-bottom: 80px;
+    background-color:#0962ac;
+    color: white;
+    border-radius: 5px;
+}
+.external-part-titile{
+    font-size: 35px;
+    padding-right: 250px;
+    margin-bottom: 10px;
+}
+.external-part-desc{
+    font-size: 20px;
+    padding-right: 200px;
+    margin-bottom: 10px;
+}
+.form input {
+    height: 50px;
+    width: 435px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .form textarea{
+    background-color: whitesmoke;
+    padding-left: 20px;
+    font-size: 18px;
+    border: none;
+  }
+
+.external-parts img{
+
+    height: 500px;
+    width: 450px;
+}
 /* Footer section */
 
 footer {
-  height: 80vh;
   width: 100%;
   background-color: black;
   color: white;
 }
 .footer-parts {
   display: flex;
+  padding: 150px 190px;
+  gap: 200px;
 }
-.footer-left-parts {
-  margin: 100px 110px;
-  padding-right: 100px;
-}
+
 .footer-left-parts-title {
   font-size: 40px;
   color: #f8f8f8;
@@ -146,11 +185,7 @@ footer {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* footer-right-parts */
-.footer-right-parts {
-  margin: 100px 160px;
-  padding-right: 100px;
-}
+
 .footer-right-parts h2 {
   font-size: 30px;
   margin-bottom: 20px;
@@ -158,7 +193,8 @@ footer {
 input {
   height: 50px;
   width: 300px;
-  border: 1px solid white;
+  border: 1.5px solid white;
+  border-radius: 10px;
   background-color: black;
   padding-left: 20px;
   font-size: 18px;
@@ -170,6 +206,6 @@ input {
   width: 150px;
   margin-top: 15px;
 }
-.footer-left-parts img{
-    margin-right: 10px;
+.footer-left-parts img {
+  margin-right: 10px;
 }
